@@ -16,17 +16,42 @@
         justify-content: space-between;
         background-color: black;
         color: rgb(247, 16, 123);
-        padding: 25px 60px;
+        padding: 25px 20px;
         margin-bottom: 30px;
+    }
+    li > a.nav-link{
+        color: rgb(216, 29, 91);  
+    }
+    li > a.nav-link:hover{
+        color: #0d0480;
+    }
+    h2{
+        color: rgb(216, 29, 91);
+        padding-top: 2rem;   
+    }
+    
+    .lists{
+        padding-top: 2rem;
+        display: flex;
+        justify-content: end;
+    }
+    .navs{
+        display: flex;
+        justify-content: space-around;
+    }
+    li{
+        list-style-type: none;
     }
 
     .cart{
         position: relative;
         background-color:rgb(247, 16, 123) ;
         color: black;
-        font-size: 30px;
-        padding: 5px;
-        border-radius: 4px;
+        font-size: 20px;
+        padding: 2px;
+        border-radius: 5px;
+        height: 37px;
+        width: 30px;
     }
 
     .cartAmount{
